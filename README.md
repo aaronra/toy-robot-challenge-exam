@@ -35,7 +35,7 @@ The application is a simulation of a toy robot moving on a square tabletop. Ther
 
 #### How to use
 
-*Add a Robot by inputing the X and Y position on the Add Robot form located on the right side and click save and it will generate a robot card with some controls on the top right of the screen.
-*We can move around the robot by using the controls provided on the robot card.
-*By default we set the table dimension to 5x5 but we can update the dimension of the table using the Update Table Dimension form.
+* Add a Robot by inputing the X and Y position on the Add Robot form located on the right side and click save and it will generate a robot card with some controls on the top right of the screen.
+* We can move around the robot by using the controls provided on the robot card.
+* By default we set the table dimension to 5x5 but we can update the dimension of the table using the Update Table Dimension form.
 
