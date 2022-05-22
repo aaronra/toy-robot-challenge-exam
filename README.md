@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+## Get started
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Make sure you have the latest git, Node.js and Yarn installed on your machine
 
-## Available Scripts
+```bash
+$ git --version
 
-In the project directory, you can run:
+$ yarn --version
 
-### `npm start`
+$ node --version
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Clone the repo from Bitbucket
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+$ git clone git@github.com:aaronra/toy-robot-challenge-exam.git
+```
 
-### `npm test`
+#### Install npm package
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+$ cd toy-robot-challenge-exam && yarn
+```
 
-### `npm run build`
+#### Start local server
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+$ yarn start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+And open `http://localhost:3000` to view it in the browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Description:
+The application is a simulation of a toy robot moving on a square tabletop. There are some pre-set obstructions on the table surface. The robot is free to roam around the surface of the table, but must be prevented from falling to destruction. Any movement that would result in the robot falling from the table and moving the robot to the obstacles must be prevented, however further valid movement commands must still be allowed.
 
-### `npm run eject`
+#### How to use
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+-Add a Robot by inputing the X and Y position on the Add Robot form located on the right side and click save and it will generate a robot card with some controls on the top right of the screen.
+-We can move around the robot by using the controls provided on the robot card.
+-By default we set the table dimension to 5x5 but we can update the dimension of the table using the Update Table Dimension form.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
